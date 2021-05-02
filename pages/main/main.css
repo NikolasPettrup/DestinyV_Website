@@ -82,3 +82,18 @@ span#faqhead {
     font-family: 'Roboto Condensed Bold';
     color: #228AE3;
 }
+
+span#question {
+    font-family: 'Roboto Condensed Bold';
+    color: #228AE3;
+    font-size: 19;
+}
+
+.faqcontent ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.faqcontent li {
+    margin: 0 0 25px 0;
+}
