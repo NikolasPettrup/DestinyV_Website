@@ -1,27 +1,27 @@
 .navigation {
-    position: fixed;
+    position: absolute;
     top: 0;
-    min-width: 100vw;
-    min-height: 8vh;
-    left: 0;
+    min-width: 1200px;
+    min-height: 75px;
     background-color: rgba(13, 18, 26, 1);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    z-index: 100;
 }
 
 nav {
-    position: fixed;
+    position: absolute;
     display: block;
     padding: .625rem;
     overflow: hidden;
     left: 0;
-    z-index: 1;
+    z-index: 100;
 }
 
 .navigation2 {
-    position: fixed;
+    position: absolute;
     display: block;
     padding: .625rem;
     overflow: hidden;
@@ -29,13 +29,13 @@ nav {
 }
 
 nav a, .navigation2 a {
-    color: #228AE3;
+    color: #fff;
     font-size: 3vh;
     padding: 0.3rem;
 }
 
 nav a:hover, .navigation2 a:hover {
-    color: #fff;
+    color: #228AE3;
     transition: 0.75s;
 }
 

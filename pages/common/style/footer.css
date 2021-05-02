@@ -1,16 +1,16 @@
 .footer {
     position: absolute;
     bottom: 0;
-    min-width: 100vw;
-    min-height: 8vh;
-    left: 0;
+    min-width: 1200px;
+    min-height: 75px;
     background-color: rgba(13, 18, 26, 1);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #747272;
+    color: rgba(255,255,255,0.5);
     font-size: 11;
     font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 100;
 }
 
 .footertext {

@@ -17,5 +17,47 @@
 }
 
 body {
+  max-width: 1200px;
+  margin: auto;
+}
+
+html {
+  display: block;
+  background-image: url('../img/BG.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
   background-color: #000;
+}
+
+a.button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto Condensed Bold';
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color:#228AE3;
+  text-align: center;
+  transition: all 0.75s;
+  width: 130px;
+  font-size: 18;
+  text-transform: uppercase;
+}
+
+a.button:hover {
+  color: #228AE3;
+  background-color: #FFFFFF;
+}
+
+@media all and (max-width: 30em) {
+  a.button {
+      display: block;
+      margin: 0.4em auto;
+  }
 }
