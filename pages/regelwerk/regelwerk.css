@@ -4,5 +4,12 @@
 }
 
 .test {
+    width: 1200px;
+    margin: auto;
+    height: 500px;
+    background-image: url('../common/img/impressum.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
     float: left;
 }

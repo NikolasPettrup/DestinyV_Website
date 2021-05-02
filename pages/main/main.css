@@ -42,7 +42,7 @@ span#destiny {
     background-image: url('../common/img/WhyD5.png');
     z-index: 5;
     float: left;
-    background-color:#000;
+    background-color: #010407;
 }
 
 .whyd5msg {
@@ -59,7 +59,7 @@ span#destiny {
     width: 1200px;
     height:75px;
     float: left;
-    background-color: #000;
+    background-color:  #010407;
 }
 
 .faqheader {
@@ -69,7 +69,7 @@ span#destiny {
     background-image: url('../common/img/FAQHead.png');
     z-index: 5;
     float: left;
-    background-color:#000;
+    background-color: #010407;
 }
 
 .faqhead {
@@ -90,7 +90,7 @@ span#faqtitle {
     margin: auto;
     z-index: 5;
     float: left;
-    background-color: #000;
+    background-color:  #010407;
 }
 
 .faqcontent{
@@ -126,7 +126,7 @@ span#question {
     background-image: url('../common/img/update.png');
     z-index: 5;
     float: left;
-    background-color:#000;
+    background-color: #010407;
 }
 
 .uptodatemsg {
