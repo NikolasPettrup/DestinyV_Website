@@ -25,7 +25,8 @@
 }
 
 span#welcomehead,
-span#whyd5head {
+span#whyd5head,
+span#uptodatehead {
     font-size: 50;
     font-family: 'Roboto Condensed Bold';
 }
@@ -54,8 +55,34 @@ span#destiny {
     color: #fff;
 }
 
+.space {
+    width: 1200px;
+    height:75px;
+    float: left;
+    background-color: #000;
+}
+
+.faqheader {
+    width: 1200px;
+    margin: auto;
+    height: 400px;
+    background-image: url('../common/img/FAQHead.png');
+    z-index: 5;
+    float: left;
+    background-color:#000;
+}
+
 .faqhead {
-    margin-top: 50px;
+    position: relative;
+    top: 320px;
+    left: 350px;
+    width: 750px;
+}
+
+span#faqtitle {
+    font-size: 50;
+    font-family: 'Roboto Condensed Bold';
+    color: #fff;
 }
 
 .faq {
@@ -77,12 +104,6 @@ span#destiny {
     color: #fff;
 }
 
-span#faqhead {
-    font-size: 50;
-    font-family: 'Roboto Condensed Bold';
-    color: #228AE3;
-}
-
 span#question {
     font-family: 'Roboto Condensed Bold';
     color: #228AE3;
@@ -96,4 +117,24 @@ span#question {
 
 .faqcontent li {
     margin: 0 0 25px 0;
+}
+
+.uptodate {
+    width: 1200px;
+    margin: auto;
+    height: 581px;
+    background-image: url('../common/img/update.png');
+    z-index: 5;
+    float: left;
+    background-color:#000;
+}
+
+.uptodatemsg {
+    position: relative;
+    top: 180px;
+    left: 220px;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    color: #fff;
 }

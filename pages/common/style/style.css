@@ -28,6 +28,7 @@ html {
   background-image: url('../img/BG.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  scroll-behavior: smooth;
 }
 
 main {
