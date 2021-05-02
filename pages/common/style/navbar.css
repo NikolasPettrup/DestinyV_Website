@@ -1,0 +1,47 @@
+.navigation {
+    position: absolute;
+    top: 0;
+    width: 1200px;
+    height: 75px;
+    background-color: rgba(13, 18, 26, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 100;
+    float: left;
+}
+
+nav {
+    position: absolute;
+    display: block;
+    padding: .625rem;
+    overflow: hidden;
+    left: 0;
+    z-index: 100;
+}
+
+.navigation2 {
+    position: absolute;
+    display: block;
+    padding: .625rem;
+    overflow: hidden;
+    right: 0;
+}
+
+nav a, .navigation2 a {
+    color: #fff;
+    font-size: 3vh;
+    padding: 0.3rem;
+}
+
+nav a:hover, .navigation2 a:hover {
+    color: #228AE3;
+    transition: 0.75s;
+}
+
+.d5logo {
+    position: absolute;
+    display: block;
+    height: 75px;
+}

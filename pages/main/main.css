@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 1200px;
+    margin: auto;
+    height: 581px;
+    background-image: url('../common/img/Header.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    float: left;
+}
+
+.welcomemsg {
+    position: relative;
+    top: 190px;
+    left: 550px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    color: #fff;
+}
+
+span#welcomehead,
+span#whyd5head,
+span#uptodatehead {
+    font-size: 50;
+    font-family: 'Roboto Condensed Bold';
+}
+
+span#destiny {
+    color: #228AE3;
+}
+
+.whyd5 {
+    width: 1200px;
+    margin: auto;
+    height: 581px;
+    background-image: url('../common/img/WhyD5.png');
+    z-index: 5;
+    float: left;
+    background-color:#000;
+}
+
+.whyd5msg {
+    position: relative;
+    top: 180px;
+    left: 220px;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    color: #fff;
+}
+
+.space {
+    width: 1200px;
+    height:75px;
+    float: left;
+    background-color: #000;
+}
+
+.faqheader {
+    width: 1200px;
+    margin: auto;
+    height: 400px;
+    background-image: url('../common/img/FAQHead.png');
+    z-index: 5;
+    float: left;
+    background-color:#000;
+}
+
+.faqhead {
+    position: relative;
+    top: 320px;
+    left: 350px;
+    width: 750px;
+}
+
+span#faqtitle {
+    font-size: 50;
+    font-family: 'Roboto Condensed Bold';
+    color: #fff;
+}
+
+.faq {
+    width: 1200px;
+    margin: auto;
+    z-index: 5;
+    float: left;
+    background-color: #000;
+}
+
+.faqcontent{
+    align-self: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    color: #fff;
+}
+
+span#question {
+    font-family: 'Roboto Condensed Bold';
+    color: #228AE3;
+    font-size: 19;
+}
+
+.faqcontent ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.faqcontent li {
+    margin: 0 0 25px 0;
+}
+
+.uptodate {
+    width: 1200px;
+    margin: auto;
+    height: 581px;
+    background-image: url('../common/img/update.png');
+    z-index: 5;
+    float: left;
+    background-color:#000;
+}
+
+.uptodatemsg {
+    position: relative;
+    top: 180px;
+    left: 220px;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    color: #fff;
+}
