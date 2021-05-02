@@ -32,11 +32,11 @@ nav a, .navigation2 a {
     color: #fff;
     font-size: 3vh;
     padding: 0.3rem;
-    transition: 0.75s;
 }
 
 nav a:hover, .navigation2 a:hover {
     color: #228AE3;
+    transition: 0.75s;
 }
 
 .d5logo {
