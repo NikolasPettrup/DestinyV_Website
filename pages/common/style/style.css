@@ -20,7 +20,7 @@ body {
   width: 1200px;
   margin: auto;
   height: 100%;
-  background-color: #000;
+  background-color: #010407;
 }
 
 html {
@@ -32,7 +32,7 @@ html {
 }
 
 main {
-  background-color: #000;
+  background-color:  #010407;
   color: #fff;
 }
 
@@ -57,6 +57,52 @@ a.button {
 a.button:hover {
   color: #228AE3;
   background-color: #FFFFFF;
+}
+
+a.button2 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto Condensed Bold';
+  font-weight: 300;
+  color: #228AE3;
+  background-color:#fff;
+  text-align: center;
+  transition: all 0.75s;
+  width: 130px;
+  font-size: 18;
+  text-transform: uppercase;
+}
+
+a.button2:hover {
+  color: #fff;
+  background-color: #104b7c;
+}
+
+a.button3 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto Condensed Bold';
+  font-weight: 300;
+  color: #228AE3;
+  background-color:#fff;
+  text-align: center;
+  transition: all 0.75s;
+  width: 200px;
+  font-size: 18;
+  text-transform: uppercase;
+}
+
+a.button3:hover {
+  color: #fff;
+  background-color: #104b7c;
 }
 
 @media all and (max-width: 30em) {

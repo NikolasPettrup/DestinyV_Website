@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.impressumbg {
+    width: 1200px;
+    margin: auto;
+    height: 500px;
+    background-image: url('../common/img/impressum.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    float: left;
+}
+
+.impressummsg {
+    position: relative;
+    top: 150px;
+    left: 490px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    color: #fff;
+}
+
+.haftungbg {
+    z-index: 1;
+    float: left;
+    width: 1200px;
+    background-color:  #010407;
+    background-size: contain;
+    margin: auto;
+}
+
+.haftungmsg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    color: #fff;
+    padding: 50px;
+}
+
+span#impressumhead,
+span#haftunghead {
+    font-size: 50;
+    font-family: 'Roboto Condensed Bold';
+}
+
+span#inhaber,
+span#haftung {
+    font-weight: bold;
+}
+
+span#haftungut {
+    font-weight: bold;
+    color: #228AE3;
+}
+
+.datenschutzheader {
+    width: 1200px;
+    margin: auto;
+    height: 350px;
+    background-image: url('../common/img/DatenschutzHeader.png');
+    background-color:  #010407;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    float: left;
+}
+
+.datenschutzbg {
+    z-index: 1;
+    float: left;
+    width: 1200px;
+    background-color:  #010407;
+    background-size: contain;
+    margin: auto;
+}
+
+.datenschutzmsg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    color: #fff;
+    padding: 50px;
+}
+
+.datenschutzmsg h1,
+.datenschutzmsg h2,
+.datenschutzmsg h3,
+.datenschutzmsg h4 {
+    font-family: 'Roboto Condensed Bold';
+}
+
+.datenschutzmsg h1 {
+    font-size: 50;
+}
+
+.datenschutzmsg h2,
+.datenschutzmsg h4 {
+    color: #228AE3;
+}
+
+.datenschutzmsg ul {
+    list-style-position: inside;
+}
+
+.datenschutzmsg a {
+    color: #228AE3;
+    text-decoration: none;
+}
+
+.datenschutzmsg a:hover {
+    color: #fff;
+}
+
+.impressumbot {
+    width: 1200px;
+    margin: auto;
+    height: 350px;
+    background-image: url('../common/img/impressumbot.png');
+    background-color:  #010407;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    float: left;
+}
