@@ -3,11 +3,97 @@
     padding: 0;
 }
 
-.test {
+.regelwerkhead {
     width: 1200px;
     margin: auto;
     height: 500px;
-    background-image: url('../common/img/impressum.png');
+    background-image: url('../common/img/regelwerkhead.png');
+    background-color: #010407;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    float: left;
+}
+
+.regelwerkmsg,
+.questionsmsg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    color: #fff;
+    padding: 50px;
+}
+
+span#rwhead,
+span#rwtitle,
+span#rwlititle,
+span#einreisetitle,
+span#questionstitle {
+    font-family: 'Roboto Condensed Bold';
+}
+
+span#rwhead,
+span#einreisetitle,
+span#questionstitle {
+    font-size: 50;
+}
+
+span#rwtitle {
+    font-size: 30;
+}
+
+span#rwtitle,
+span#rwlititle {
+    color: #228AE3;
+}
+
+.regelwerkmsg ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.regelwerkmsg li {
+    margin: 0 0 15px 0;
+}
+
+.einreisehead {
+    width: 1200px;
+    margin: auto;
+    height: 350px;
+    background-image: url('../common/img/Einreise.png');
+    background-color: #010407;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    float: left;
+}
+
+.regelwerkbg,
+.questionsbg {
+    z-index: 1;
+    float: left;
+    width: 1200px;
+    background-color: #010407;
+    background-size: contain;
+    margin: auto;
+}
+
+.einreisemsg {
+    position: relative;
+    left: 350px;
+    top: 40px;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    color: #fff;
+    padding: 50px;
+}
+
+.einreisebot {
+    width: 1200px;
+    margin: auto;
+    height: 350px;
+    background-image: url('../common/img/regelwerkbot.png');
+    background-color: #010407;
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 1;
